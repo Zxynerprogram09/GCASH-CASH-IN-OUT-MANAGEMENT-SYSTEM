@@ -1,46 +1,47 @@
-GCASH-CASH-IN-OUT-MANAGEMENT-SYSTEM - DOCUMENTATION
+## GCASH-CASH-IN-OUT-MANAGEMENT-SYSTEM - DOCUMENTATION
 
-1. **Introduction**
-The GCash Business Management System is a Python-based console application designed to facilitate financial transactions. It allows users to execute cash in or out operations, manage mobile numbers, amounts, payment fees, dates, and reference numbers. Notably, this system seamlessly integrates with a database management system, utilizing Python's capabilities to interact with databases and ensure secure and efficient transaction management.
+### Introduction
 
-2. **Features**
+The GCash Business Management System is a Python-based tool designed to streamline financial transactions. It offers a user-friendly interface for cash in or out operations, mobile number management, transaction amounts, payment fees, dates, and reference numbers. A key feature is its seamless integration with a robust database management system, allowing secure and efficient transaction handling.
+
+### Features
+
+1. **Cash In or Out:** Execute financial transactions effortlessly, specifying operation type, mobile number, amount, payment fee, date, and reference number, all linked with a connected database.
    
-    2.1 **Cash In or Out:** Enables users to conduct financial transactions, specifying operation type, mobile number, transaction amount, payment fee, date, and reference number, all synchronized with a connected database.
-    
-    2.2 **Database Connectivity:** Establishes a connection to a database system, storing and retrieving transactional data, ensuring data integrity and security.
-    
-    2.3 **View Transactions:** Allows users to retrieve transaction logs directly from the database, displaying details such as mobile number, transaction amount, payment fee, date, and reference number.
-    
-    2.4 **Search Transactions:** Facilitates database queries to retrieve specific transactions based on mobile numbers or dates, providing comprehensive transaction information.
-    
-    2.5 **Transaction Analysis:** Provides analytical insights by querying database-stored transaction data, allowing for statistical analysis and reporting.
+2. **Database Connectivity:** Establish a secure connection to a database system, ensuring data integrity and enabling smooth data transactions.
 
-3. **Implementation Details**
-
-    3.1 **Database Connection:** Establishes a connection to the database management system using Python's database connectivity libraries, ensuring seamless interaction between the application and the database.
-    
-    3.2 **Database Schema:** Defines a structured schema to store transactional data, incorporating tables for mobile numbers, transaction amounts, payment fees, dates, and reference numbers.
-    
-    3.3 **Transaction Management Functions:** Implements Python functions to execute database operations, including inserting new transactions, querying transaction details, searching transactions, analyzing data, and exporting records.
-
-4. **Usage Instructions**
+3. **View Transactions:** Retrieve transaction logs directly from the database, showcasing transaction details like mobile numbers, amounts, fees, dates, and reference numbers.
    
-    - **Run the Program:** Execute the Python code in a Python interpreter. The system will establish a connection to the database and display a menu for transaction management.
-    
-    - **Cash In or Out:** Choose the appropriate option to perform financial transactions, ensuring that the transactional data is stored securely in the connected database.
-    
-    - **View Transactions:** Access the option to retrieve transaction logs directly from the database, displaying essential transaction details stored in the database.
-    
-    - **Search Transactions:** Utilize the search feature to query the database for specific transactions based on mobile numbers or dates, retrieving detailed transaction information.
-    
-    - **Transaction Analysis:** Leverage the system's ability to analyze stored transactional data, providing statistical insights through database queries.
-    
-    - **Data Export:** Export transaction data from the database for external reporting or analysis purposes, ensuring seamless integration between the application and database systems.
-
-5. **Conclusion**
+4. **Search Transactions:** Conduct database queries based on mobile numbers or dates to retrieve specific transaction details.
    
-    The GCash Business Management System, integrated with a database management system, serves as a robust platform for handling financial transactions securely and efficiently. By leveraging Python's database connectivity, the system ensures seamless interaction with the database, offering users a user-friendly interface for managing transactions while safeguarding data integrity. This documentation highlights key functionalities while emphasizing the system's capability to synchronize transactional data with the connected database for enhanced reliability and data management.
+5. **Transaction Analysis:** Obtain analytical insights through database queries, facilitating statistical analysis and reporting.
+
+### Implementation Details
+
+1. **Database Connection:** Utilize Python's database connectivity libraries to establish a connection to the database management system, ensuring seamless interaction between the application and the database.
+
+2. **Database Schema:** Design a structured schema to store transactional data, comprising tables for mobile numbers, transaction amounts, payment fees, dates, and reference numbers.
+
+3. **Transaction Management Functions:** Implement Python functions to execute database operations, such as inserting new transactions, querying transaction details, searching transactions, analyzing data, and exporting records.
+
+### Usage Instructions
+
+- **Running the Program:** Execute the Python code in a Python interpreter to connect to the database and access the transaction management menu.
+  
+- **Cash In or Out:** Easily perform financial transactions while securely storing transactional data in the connected database.
+  
+- **Viewing Transactions:** Access transaction logs directly from the database, displaying crucial transaction details.
+  
+- **Searching Transactions:** Use the search feature to query the database for specific transactions based on mobile numbers or dates, retrieving comprehensive details.
+  
+- **Transaction Analysis:** Leverage the system's data analysis capabilities to derive statistical insights through database queries.
+  
+- **Data Export:** Export transaction data from the database for external analysis or reporting purposes, ensuring smooth integration between the application and database systems.
+
+### Conclusion
+
+The GCash Business Management System, with its seamless integration with a database management system, provides a robust platform for secure and efficient financial transactions. Leveraging Python's database connectivity, the system ensures smooth interaction with the database while offering users a straightforward interface for managing transactions. This documentation highlights key functionalities, emphasizing the system's ability to synchronize transactional data with the connected database, enhancing reliability, and facilitating efficient data management.
 
 Collaborators:
-1. Marasigan Xyzon Ezekiel R. Github Acc: Zxynerprogram09
-2. Macaraig Win A. Github Acc: MingArtsy
+1. Marasigan Xyzon Ezekiel R. - Github Account: Zxynerprogram09
+2. Macaraig Win A. - Github Account: MingArtsy
