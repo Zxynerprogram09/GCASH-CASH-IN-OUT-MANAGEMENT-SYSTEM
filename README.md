@@ -40,3 +40,7 @@ The GCash Business Management System is a Python-based console application desig
 5. **Conclusion**
    
     The GCash Business Management System, integrated with a database management system, serves as a robust platform for handling financial transactions securely and efficiently. By leveraging Python's database connectivity, the system ensures seamless interaction with the database, offering users a user-friendly interface for managing transactions while safeguarding data integrity. This documentation highlights key functionalities while emphasizing the system's capability to synchronize transactional data with the connected database for enhanced reliability and data management.
+
+Collaborators:
+Marasigan Xyzon Ezekiel R. Github Acc: Zxynerprogram09
+Macaraig Win A. Github Acc: MingArtsy
